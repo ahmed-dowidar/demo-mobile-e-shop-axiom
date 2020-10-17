@@ -3,7 +3,7 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [URLS](#URLS)
-* [high-level architecture](#high-level architecture)
+* [high level architecture](#high-level-architecture)
 
 ## General info
 This project is simple mobile-e-shop-axiom Demo for task about interview at Axiom telecom Company.
@@ -47,7 +47,7 @@ Project Exposed these API's End Points :
 
 and any combination of parameters needed ... 
 
-## high-level architecture
+## high level architecture
 ![high-level architecture](https://github.com/ahmed-dowidar/demo-mobile-e-shop-axiom/blob/master/src/classDiagram/DemoTestAxiomMobileEShop.png?raw=true)
 
 Thanks and Best Regards
