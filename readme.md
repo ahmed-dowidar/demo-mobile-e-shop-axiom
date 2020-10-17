@@ -2,7 +2,8 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [EndPoints](#EndPoints)
+* [URLS](#URLS)
+* [high-level architecture](#high-level architecture)
 
 ## General info
 This project is simple mobile-e-shop-axiom Demo for task about interview at Axiom telecom Company.
@@ -22,8 +23,8 @@ To run this project, import it locally using any IDE and
 *  or from cmd you can directly go to the target folder which maven generates and open cmd in this path 
 * type java -jar {type jar full name } and run 
 
-## EndPoints
-Project is Exposed these API's with:
+## URLS
+Project Exposed these API's End Points :
 
 ** get list of Mobile handset :**  http://localhost:8080/mobiles/list <br />
 ** get list of Mobile handset By id :**  http://localhost:8080/mobiles/search?id=27999 <br />
@@ -47,5 +48,6 @@ Project is Exposed these API's with:
 
 and any combination of parameters needed ... 
 
+![high-level architecture](https://github.com/ahmed-dowidar/demo-mobile-e-shop-axiom/blob/master/src/classDiagram/DemoTestAxiomMobileEShop.png?raw=true)
 
 Thanks and Best Regards
