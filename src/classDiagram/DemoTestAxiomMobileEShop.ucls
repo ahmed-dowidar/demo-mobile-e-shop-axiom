@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="com.gov.uae.axiom.domain.Hardware" project="mobile-e-shop-axiom" 
+    file="/mobile-e-shop-axiom/src/main/java/com/gov/uae/axiom/domain/Hardware.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="964" y="75"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.gov.uae.axiom.domain.Mobiles" project="mobile-e-shop-axiom" 
+    file="/mobile-e-shop-axiom/src/main/java/com/gov/uae/axiom/domain/Mobiles.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="164" width="125" x="710" y="101"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.gov.uae.axiom.domain.Release" project="mobile-e-shop-axiom" 
+    file="/mobile-e-shop-axiom/src/main/java/com/gov/uae/axiom/domain/Release.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="950" y="327"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.gov.uae.axiom.controller.MobileController" project="mobile-e-shop-axiom" 
+    file="/mobile-e-shop-axiom/src/main/java/com/gov/uae/axiom/controller/MobileController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="138" x="15" y="25"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="5" language="java" name="com.gov.uae.axiom.service.MobileService" project="mobile-e-shop-axiom" 
+    file="/mobile-e-shop-axiom/src/main/java/com/gov/uae/axiom/service/MobileService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="114" width="164" x="241" y="100"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="com.gov.uae.axiom.serviceImpl.MobileServiceImpl" project="mobile-e-shop-axiom" 
+    file="/mobile-e-shop-axiom/src/main/java/com/gov/uae/axiom/serviceImpl/MobileServiceImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="115" width="244" x="387" y="275"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="com.gov.uae.axiom.repository.MobileRepository" project="mobile-e-shop-axiom" 
+    file="/mobile-e-shop-axiom/src/main/java/com/gov/uae/axiom/repository/MobileRepository.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="79" width="222" x="450" y="94"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <association id="8">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="9" name="release">        
+        <position height="0" width="0" x="840" y="7"/>      
+      </attribute>      
+      <multiplicity id="10" minimum="0" maximum="1">        
+        <position height="0" width="0" x="840" y="7"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="11">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <association id="12">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="13" name="hardware">        
+        <position height="0" width="0" x="700" y="-259"/>      
+      </attribute>      
+      <multiplicity id="14" minimum="0" maximum="1">        
+        <position height="0" width="0" x="700" y="-259"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="16" name="mobileService"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="19" name="mobileRepository"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
