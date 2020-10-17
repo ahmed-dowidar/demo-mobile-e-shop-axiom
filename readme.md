@@ -35,13 +35,13 @@ Project is Exposed these API's with:
 ** get list of Mobile handset By announceDate :**  http://localhost:8080/mobiles/search?announceDate=2012 <br />
 ** get list of Mobile handset By priceEur :**  http://localhost:8080/mobiles/search?priceEur=200 <br />
 ** get list of Mobile handset By audioJack :**  http://localhost:8080/mobiles/search?audioJack=Yes <br />
-** get list of Mobile handset By gps : ** http://localhost:8080/mobiles/search?gps=NO <br />
+** get list of Mobile handset By gps : ** http://localhost:8080/mobiles/search?gps=No <br />
 ** get list of Mobile handset By battery :**  http://localhost:8080/mobiles/search?battery=Li-Po 4490 mAh battery (16.7 Wh) <br />
 ** get list of Mobile handset By id and brand :**  http://localhost:8080/mobiles/search?id=27999&brand=Apple <br />
 ** get list of Mobile handset By phone and picture :**  http://localhost:8080/mobiles/search?phone=Wi-Fi&picture=gsmarena <br />
 ** get list of Mobile handset By sim and resolution :**  http://localhost:8080/mobiles/search?sim=No&resolution=768 x 1024 pixels <br />
 ** get list of Mobile handset By announceDate and priceEur :**  http://localhost:8080/mobiles/search?announceDate=2012&priceEur=200 <br />
-** get list of Mobile handset By audioJack and gps :**  http://localhost:8080/mobiles/search?audioJack=Yes&gps=NO  <br />
+** get list of Mobile handset By audioJack and gps :**  http://localhost:8080/mobiles/search?audioJack=Yes&gps=No  <br />
 ** get list of Mobile handset By battery and priceEur :**  http://localhost:8080/mobiles/search?battery=Li-Po 4490 mAh battery (16.7 Wh)&priceEur=200  <br />
 
 
