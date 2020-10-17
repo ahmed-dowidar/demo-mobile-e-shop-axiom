@@ -45,9 +45,9 @@ Project Exposed these API's End Points :
 ** get list of Mobile handset By audioJack and gps :**  http://localhost:8080/mobiles/search?audioJack=Yes&gps=No  <br />
 ** get list of Mobile handset By battery and priceEur :**  http://localhost:8080/mobiles/search?battery=Li-Po 4490 mAh battery (16.7 Wh)&priceEur=200  <br />
 
-
 and any combination of parameters needed ... 
 
+## high-level architecture
 ![high-level architecture](https://github.com/ahmed-dowidar/demo-mobile-e-shop-axiom/blob/master/src/classDiagram/DemoTestAxiomMobileEShop.png?raw=true)
 
 Thanks and Best Regards
